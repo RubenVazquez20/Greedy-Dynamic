@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//Complejidad O(n)
 void print(vector<Dinero> &resultado, int P, int Q, int option){
   int suma = 0;
     cout << endl;
@@ -8,7 +9,7 @@ void print(vector<Dinero> &resultado, int P, int Q, int option){
     (option == 1) ? cout << "Dinamico" : cout << "Greedy";
     cout << " -------------]" << endl;
     cout << "Tu cambio es de: $" << Q - P << endl << endl;
-    for (int i = resultado.size() - 1; i >= 0; i--) {
+    for (int i = 0; i < resultado.size(); i++) {
       suma += resultado[i].cantidad * resultado[i].valor;
       cout << "Monedas de $" << resultado[i].valor << " -> "
            << resultado[i].cantidad << endl;

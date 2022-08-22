@@ -1,10 +1,10 @@
-Instituto Tecnológico y de Estudios SUperiores de Monterrey
-                    Campus Puebla
+# Instituto Tecnológico y de Estudios Superiores de Monterrey
+## Campus Puebla
 
-Equipo:
+# Equipo:
   Angel Rubén Vázquez Rivera A01735407
   Oscar Emiliano Ramírez Díaz 
-  José Israel Pérez Ontiveros
+  José Israel Pérez Ontiveros A01423294
 
   
          Act1.2 Greedy-Dynamic Solution

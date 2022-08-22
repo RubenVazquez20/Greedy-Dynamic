@@ -7,7 +7,8 @@
 
 using namespace std;
 
-int main() {
+//Complejidad O(1)
+int main(){
   int N;
   cin >> N;
   vector<int> array;
@@ -21,12 +22,12 @@ int main() {
 
   // vector<int> resultado_greedy = cambioGreedy(P, Q, array);
   if (P > Q) {
-    cout << "\n No digas cosas Mary Jane, dame uno más grande " << endl;
+    cout << "\nNo digas cosas Mary Jane, dame uno más grande " << endl;
   } else {
     vector<Dinero> resultado_dinamico = cambioDinamico(P, Q, array, dinero);
     print(resultado_dinamico, P, Q, 1);
     vector<Dinero> resultado_greedy = cambioGreedy(P, Q, array, dinero);
-    print(resultado_dinamico, P, Q, 0);
+    print(resultado_greedy, P, Q, 0);
   }
 
   return 0;
